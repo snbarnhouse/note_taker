@@ -1,5 +1,9 @@
 # 11 Express.js: Note Taker
 
+## Description
+
+Allows users to take notes and save notes for later use.
+
 ## Your Task
 
 Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
@@ -9,6 +13,13 @@ The application’s front end has already been created. It's your job to build t
 Deployed: https://snbarnhouse.github.io/note_taker/ 
 
 GitHub Repository: https://github.com/snbarnhouse/note_taker 
+
+![note_taker](https://user-images.githubusercontent.com/77131387/115313899-1e1c0b80-a142-11eb-9aea-5b2cdc989f35.png)
+
+
+## Note Taker 
+
+Made using HTML, JS, JSON, CSS, express.js, heroku, node.js.
 
 
 ## User Story
@@ -37,21 +48,3 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
-
-## Getting Started
-
-The application should have a `db.json` file on the back end that will be used to store and retrieve notes using the `fs` module.
-
-The following HTML routes should be created:
-
-* `GET /notes` should return the `notes.html` file.
-
-* `GET *` should return the `index.html` file.
-
-The following API routes should be created:
-
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
-
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into `npm` packages that could do this for you).
-
-
