@@ -14,6 +14,8 @@ Deployed: https://snbarnhouse.github.io/note_taker/
 
 GitHub Repository: https://github.com/snbarnhouse/note_taker 
 
+Heroku Delopyment: https://enigmatic-bastion-47629.herokuapp.com/ 
+
 ![note_taker](https://user-images.githubusercontent.com/77131387/115313899-1e1c0b80-a142-11eb-9aea-5b2cdc989f35.png)
 
 
