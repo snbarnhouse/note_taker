@@ -10,11 +10,10 @@ Your assignment is to modify starter code to create an application called Note T
 
 The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
 
-Deployed: https://snbarnhouse.github.io/note_taker/ 
 
 GitHub Repository: https://github.com/snbarnhouse/note_taker 
 
-Heroku Delopyment: https://enigmatic-bastion-47629.herokuapp.com/ 
+Deployed: https://enigmatic-bastion-47629.herokuapp.com/ 
 
 ![note_taker](https://user-images.githubusercontent.com/77131387/115313899-1e1c0b80-a142-11eb-9aea-5b2cdc989f35.png)
 
