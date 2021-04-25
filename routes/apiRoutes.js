@@ -8,7 +8,6 @@ module.exports = app => {
 
 
     // API ROUTES
-    // ========================================================
 
     // Setup the /api/notes get route
     app.get("/api/notes", function (req, res) {
