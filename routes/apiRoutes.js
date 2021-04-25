@@ -1,6 +1,9 @@
 const path = require('path');
 const notes = require("../db/db.json");
 const fs = require("fs");
+const { v4: uuidv4 } = require("uuid");
+const { Recoverable } = require('repl');
+
 module.exports = app => {
 
 
@@ -16,6 +19,7 @@ module.exports = app => {
     // Setup the /api/notes post route
     app.post("/api/notes", function (req, res) {
         // Receives a new note, adds it to db.json, then returns the new note
+        req.body.id = uuidv4();
         let newNote = req.body;
         notes.push(newNote);
         fs.writeFile(path.join(__dirname, "../db/db.json"),JSON.stringify(notes),err => {
